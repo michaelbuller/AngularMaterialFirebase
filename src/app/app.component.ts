@@ -12,12 +12,11 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     firebase.initializeApp({
       // For other projects use different keys
-      apiKey: 'AIzaSyBUYZcc_HKi1TckbZPpSjSkxyFvml3Is0A',
-      authDomain: 'angular4materialdesign.firebaseapp.com',
-      databaseURL: 'https://angular4materialdesign.firebaseio.com',
-      projectId: 'angular4materialdesign',
-      storageBucket: 'angular4materialdesign.appspot.com',
-      messagingSenderId: '136985605193'
+      apiKey: 'AIzaSyC5wA0uyuaRTcXkH2EdG5-rqPHBoZ7-bsU',
+      authDomain: 'mortgage-customer-portal.firebaseapp.com',
+      databaseURL: 'https://mortgage-customer-portal.firebaseio.com',
+      projectId: 'mortgage-customer-portal',
+      storageBucket: 'mortgage-customer-portal.appspot.com'
     });
 
     // See users, messages and keep in touch in console log
